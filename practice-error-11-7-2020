@@ -1,55 +1,46 @@
-Chuẩn đoán: Java error ??
+Chuẩn đoán: Staff Plus lỗi & xung đột ???
 
 
 
 
 
 Logs Crash:
-[16:51:21 ERROR]: ipo[ko[pkefwfenet.minecraft.server.v1_8_R3.PacketStatusListener.a(PacketStatusListener.java:101)
-[16:51:21 ERROR]: ipo[ko[pkefwfenet.minecraft.server.v1_8_R3.PacketStatusInStart.a(SourceFile:23)fojjfojjf
-[16:51:21 ERROR]: ipo[ko[pkefwfenet.minecraft.server.v1_8_R3.PacketStatusInStart.a(SourceFile:8)jfojjfojjf
-[16:51:21 ERROR]: ipo[ko[pkefwfenet.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:124)ojjf
-[16:51:21 ERROR]: ipo[ko[pkefwfenet.minecraft.server.v1_8_R3.NetworkManager.channelRead0(NetworkManager.java:325)
-[16:51:21 ERROR]: ipo[ko[pkefwfenet.minecraft.server.v1_8_R3.NetworkManager.channelRead0(NetworkManager.java:1)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
-[16:51:21 ERROR]: ipo[ko[pkefwfeorg.inventivetalent.packetlistener.channel.INCChannel$ChannelHandler.channelRead(INCChannel.java:182)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
-[16:51:21 ERROR]: ipo[ko[pkefwfecom.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
-[16:51:21 ERROR]: ipo[ko[pkefwfenet.minecraft.server.v1_8_R3.LegacyPingHandler.channelRead(SourceFile:94)f
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:150)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.epoll.EpollSocketChannel$EpollSocketUnsafe.epollInReady(EpollSocketChannel.java:722)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:326)
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:264)ojjfojjf
-[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
-[16:51:21 ERROR]: ipo[ko[pkefwfejava.lang.Thread.run(Thread.java:748)jjfopjjfopjjfopjjfoofjojfojjfojjfojjf
-[16:51:21 ERROR]: ------------------------------ewfo[kjef[ojkefj[jfopjjfopjjfopjjfopjjfoofjojfojjfojjfojjf
-[16:51:21 ERROR]: Current Thread: HSQLDB Timer @67bb7d12f[ojkefj[jfopjjfopjjfopjjfopjjfoofjojfojjfojjfojjf
-[16:51:21 ERROR]: ipo[koPID: 34 | Suspended: false | Native: false | State: TIMED_WAITINGfjojfojjfojjfojjf
-[16:51:21 ERROR]: ipo[koStack:feo[pk[pkfewpk[p[kewfo[kjef[ojkefj[jfopjjfopjjfopjjfopjjfoofjojfojjfojjfojjf
-[16:51:21 ERROR]: ipo[ko[pkefwfejava.lang.Object.wait(Native Method)pjjfopjjfopjjfopjjfoofjojfojjfojjfojjf
-[16:51:21 ERROR]: ipo[ko[pkefwfeorg.hsqldb.lib.HsqlTimer$TaskQueue.park(Unknown Source)oofjojfojjfojjfojjf
-[16:51:21 ERROR]: ipo[ko[pkefwfeorg.hsqldb.lib.HsqlTimer.nextTask(Unknown Source)fopjjfoofjojfojjfojjfojjf
-[16:51:21 ERROR]: ipo[ko[pkefwfeorg.hsqldb.lib.HsqlTimer$TaskRunner.run(Unknown Source)oofjojfojjfojjfojjf
-[16:51:21 ERROR]: ipo[ko[pkefwfejava.lang.Thread.run(Thread.java:748)jjfopjjfopjjfopjjfoofjojfojjfojjfojjf
-[16:51:21 ERROR]: ------------------------------ewfo[kjef[ojkefj[jfopjjfopjjfopjjfopjjfoofjojfojjfojjfojjf
-[16:51:21 ERROR]: Current Thread: Timer-0wpk[p[kewfo[kjef[ojkefj[jfopjjfopjjfopjjfopjjfoofjojfojjfojjfojjf
+[17:58:25 INFO]: Startup script './start.bat' does not exist! Stopping server.
+[17:58:25 INFO]: Stopping server
+[17:58:25 ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.2
+org.bukkit.event.EventException
+        at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:502) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:487) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEvent(CraftEventFactory.java:87) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:553) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:466) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:585) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at net.minecraft.server.v1_8_R3.EntityLiving.d(EntityLiving.java:1102) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at net.minecraft.server.v1_8_R3.EntityHuman.d(EntityHuman.java:859) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:743) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at net.minecraft.server.v1_8_R3.EntityHuman.damageEntity(EntityHuman.java:800) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at net.minecraft.server.v1_8_R3.EntityPlayer.damageEntity(EntityPlayer.java:496) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at net.citizensnpcs.npc.entity.EntityHumanNPC.damageEntity(EntityHumanNPC.java:106) [Citizens.jar:?]
+        at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1001) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1063) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1355) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_252]
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_252]
+        at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:715) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot.jar:git-Spigot-21fe707-e1ebe52]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NullPointerException
+        at net.shortninja.staffplus.server.listener.entity.EntityDamage.onDamage(EntityDamage.java:43) ~[?:?]
+        at sun.reflect.GeneratedMethodAccessor46.invoke(Unknown Source) ~[?:?]
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+        at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+        at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot.jar:git-Spigot-21fe707-e1ebe52]
+        ... 27 more
