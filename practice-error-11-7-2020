@@ -1,0 +1,55 @@
+Chuẩn đoán: Java error ??
+
+
+
+
+
+Logs Crash:
+[16:51:21 ERROR]: ipo[ko[pkefwfenet.minecraft.server.v1_8_R3.PacketStatusListener.a(PacketStatusListener.java:101)
+[16:51:21 ERROR]: ipo[ko[pkefwfenet.minecraft.server.v1_8_R3.PacketStatusInStart.a(SourceFile:23)fojjfojjf
+[16:51:21 ERROR]: ipo[ko[pkefwfenet.minecraft.server.v1_8_R3.PacketStatusInStart.a(SourceFile:8)jfojjfojjf
+[16:51:21 ERROR]: ipo[ko[pkefwfenet.minecraft.server.v1_8_R3.NetworkManager.a(NetworkManager.java:124)ojjf
+[16:51:21 ERROR]: ipo[ko[pkefwfenet.minecraft.server.v1_8_R3.NetworkManager.channelRead0(NetworkManager.java:325)
+[16:51:21 ERROR]: ipo[ko[pkefwfenet.minecraft.server.v1_8_R3.NetworkManager.channelRead0(NetworkManager.java:1)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+[16:51:21 ERROR]: ipo[ko[pkefwfeorg.inventivetalent.packetlistener.channel.INCChannel$ChannelHandler.channelRead(INCChannel.java:182)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:168)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+[16:51:21 ERROR]: ipo[ko[pkefwfecom.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:263)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+[16:51:21 ERROR]: ipo[ko[pkefwfenet.minecraft.server.v1_8_R3.LegacyPingHandler.channelRead(SourceFile:94)f
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:150)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.epoll.EpollSocketChannel$EpollSocketUnsafe.epollInReady(EpollSocketChannel.java:722)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:326)
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:264)ojjfojjf
+[16:51:21 ERROR]: ipo[ko[pkefwfeio.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+[16:51:21 ERROR]: ipo[ko[pkefwfejava.lang.Thread.run(Thread.java:748)jjfopjjfopjjfopjjfoofjojfojjfojjfojjf
+[16:51:21 ERROR]: ------------------------------ewfo[kjef[ojkefj[jfopjjfopjjfopjjfopjjfoofjojfojjfojjfojjf
+[16:51:21 ERROR]: Current Thread: HSQLDB Timer @67bb7d12f[ojkefj[jfopjjfopjjfopjjfopjjfoofjojfojjfojjfojjf
+[16:51:21 ERROR]: ipo[koPID: 34 | Suspended: false | Native: false | State: TIMED_WAITINGfjojfojjfojjfojjf
+[16:51:21 ERROR]: ipo[koStack:feo[pk[pkfewpk[p[kewfo[kjef[ojkefj[jfopjjfopjjfopjjfopjjfoofjojfojjfojjfojjf
+[16:51:21 ERROR]: ipo[ko[pkefwfejava.lang.Object.wait(Native Method)pjjfopjjfopjjfopjjfoofjojfojjfojjfojjf
+[16:51:21 ERROR]: ipo[ko[pkefwfeorg.hsqldb.lib.HsqlTimer$TaskQueue.park(Unknown Source)oofjojfojjfojjfojjf
+[16:51:21 ERROR]: ipo[ko[pkefwfeorg.hsqldb.lib.HsqlTimer.nextTask(Unknown Source)fopjjfoofjojfojjfojjfojjf
+[16:51:21 ERROR]: ipo[ko[pkefwfeorg.hsqldb.lib.HsqlTimer$TaskRunner.run(Unknown Source)oofjojfojjfojjfojjf
+[16:51:21 ERROR]: ipo[ko[pkefwfejava.lang.Thread.run(Thread.java:748)jjfopjjfopjjfopjjfoofjojfojjfojjfojjf
+[16:51:21 ERROR]: ------------------------------ewfo[kjef[ojkefj[jfopjjfopjjfopjjfopjjfoofjojfojjfojjfojjf
+[16:51:21 ERROR]: Current Thread: Timer-0wpk[p[kewfo[kjef[ojkefj[jfopjjfopjjfopjjfopjjfoofjojfojjfojjfojjf
