@@ -7,8 +7,6 @@ Tình Trạng: Đã fix
 
 
 Logs Crash:
-[17:58:25 INFO]: Startup script './start.bat' does not exist! Stopping server.
-[17:58:25 INFO]: Stopping server
 [17:58:25 ERROR]: Could not pass event EntityDamageByEntityEvent to StaffPlus v3.2.2
 org.bukkit.event.EventException
         at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot.jar:git-Spigot-21fe707-e1ebe52]
